@@ -22,6 +22,9 @@
 <p align="center">
   <img src="./Screenshot%202026-05-11%20144044.png" width="32%" />
   <img src="./Screenshot%202026-05-11%20144145.png" width="32%" />
+  <img src="./Screenshot%202026-05-11%20144118.png" width="32%" />
+  <img src="./Screenshot%202026-05-11%20144044.png" width="32%" />
+  <img src="./Screenshot%202026-05-11%20144236.png" width="32%" />
   <img src="./Screenshot%202026-05-11%20144315.png" width="32%" />
 </p>
 
