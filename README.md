@@ -1,56 +1,106 @@
-# Finance Pulse App
+<h1 align="center">Finance Pulse App 💰</h1>
+
+<p align="center">
+  A personal finance dashboard to track income, expenses, and spending patterns — all in one place.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Recharts-FF6384?style=flat" />
+  <img src="https://img.shields.io/badge/Deployed-Vercel-000000?style=flat&logo=vercel&logoColor=white" />
+</p>
+
+<p align="center">
+  <a href="https://finance-pulse-app-seven.vercel.app">🌐 Live Demo</a>
+</p>
+
+---
+
+<p align="center">
+  <img src="./Screenshot%202026-05-11%20144044.png" width="32%" />
+  <img src="./Screenshot%202026-05-11%20144145.png" width="32%" />
+  <img src="./Screenshot%202026-05-11%20144315.png" width="32%" />
+</p>
+
+---
 
 ## Overview
-Finance Pulse App is a React-based web application designed to track and visualize financial data through an interactive dashboard. It provides insights into income, expenses, and overall financial performance using charts and a clean UI layout.
+
+Finance Pulse App is a React-based web application that gives users a clear visual picture of their financial health. Built with TypeScript for type safety and Recharts for data visualization, it provides an interactive dashboard to monitor income, track expenses, and understand spending trends over time.
+
+---
 
 ## Features
-- Interactive financial dashboard
-- Income and expense tracking visualization
-- Sidebar navigation system
-- Responsive design for all devices
-- Data visualization using charts
-- Built with modern React components
+
+- 📊 Interactive income vs expense charts
+- 💸 Transaction tracking with category breakdown
+- 📱 Fully responsive — works on mobile and desktop
+- 🧭 Sidebar navigation for clean UX
+- ⚡ Fast performance with Vite build tooling
+
+---
 
 ## Tech Stack
-- React
-- Vite
-- JavaScript (ES6+)
-- Recharts
-- CSS / Tailwind CSS (if used)
 
-## Installation
+| Layer | Technology |
+|---|---|
+| Frontend | React 18 + TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Charts | Recharts |
+| Deployment | Vercel |
 
-### Clone the repository
-git clone https://github.com/your-username/finance-pulse-app.git
+---
 
-### Navigate to project directory
-cd finance-pulse-app
+## Getting Started
 
-### Install dependencies
+```bash
+# Clone the repository
+git clone https://github.com/ckprojects77/Finance-Pulse-App.git
+cd Finance-Pulse-App
+
+# Install dependencies
 npm install
 
-### Run development server
+# Start development server
 npm run dev
+```
 
-## Build for Production
-npm run build
+App runs at `http://localhost:5173`
 
-## Deployment
-This project is deployed using Vercel. Any push to the main branch automatically triggers deployment.
-
-## Live Demo
-https://finance-pulse-app-seven.vercel.app
+---
 
 ## Project Structure
+
+```
 src/
-components/
-pages/
-assets/
-App.jsx
-main.jsx
+├── components/       # Reusable UI components
+├── pages/            # Dashboard and route pages
+├── hooks/            # Custom React hooks
+├── lib/              # Utility functions
+└── styles/           # Global styles
+```
+
+---
+
+## What I Learned
+
+- Structuring a TypeScript + React project from scratch with Vite
+- Working with Recharts to build responsive, data-driven visualizations
+- Managing component state and data flow across a dashboard layout
+- Deploying and configuring a production build on Vercel
+
+---
 
 ## Author
-Created by CKProjects77
+
+Built by [ckprojects77](https://github.com/ckprojects77)
+
+---
 
 ## License
-This project is for educational purposes only.
+
+This project is for educational purposes.
